@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibnocci Sequence</title>
+    <script>
+        var hi = 0;
+        var hello = 1;
+        var hey;
+        document.write(hi +"<br />");
+        document.write(hello+"<br />");
+        var num = prompt("enter the value");
+        for(i=3;i<num; i++){
+            var hey= hi + hello;
+            hi = hello;
+            hello = hey;
+            document.write(hey +"<br />");
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
